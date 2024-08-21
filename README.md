@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Audio Visualizers Project
 
-## Getting Started
+## Description
 
-First, run the development server:
+This project demonstrates various audio visualization techniques using the `AudioMotionAnalyzer` library. It includes different visualizer modes, such as bars, radial, dual bars, and energy, allowing you to visualize audio files and live microphone input in multiple ways.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Multiple Audio Visualizers**: View audio in different modes:
+  - **Default**: Basic visualization.
+  - **Bars**: Displays audio frequencies as vertical bars.
+  - **Radial**: Shows audio frequencies in a circular pattern.
+  - **Dual Bars**: Displays a mirrored bar visualizer for stereo audio.
+  - **Energy**: Emphasizes the intensity of the audio.
+- **File Upload**: Upload audio files to visualize them.
+- **Microphone Input**: Optionally visualize live audio from the microphone.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
 
-## Learn More
+2. **Navigate to the project directory:**
+   ```bash
+   cd your-repo-name
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+1. **Upload an Audio File**:
+   - Use the file input to select an audio file from your local machine. The file will be visualized in various modes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Select Visualization Mode**:
+   - Choose from different visualization modes (Default, Bars, Radial, Dual Bars, Energy) to see how the audio is represented.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Microphone Input (Optional)**:
+   - Click the "Use Microphone" button to start visualizing live audio input from your microphone. Ensure you grant the necessary permissions in your browser.
+
+## Examples
+
+**Default Visualizer:**
+![Default Visualizer](https://example.com/default-visualizer.png)
+
+**Bars Visualizer:**
+![Bars Visualizer](https://example.com/bars-visualizer.png)
+
+**Radial Visualizer:**
+![Radial Visualizer](https://example.com/radial-visualizer.png)
+
+**Dual Bars Visualizer:**
+![Dual Bars Visualizer](https://example.com/dual-bars-visualizer.png)
+
+**Energy Visualizer:**
+![Energy Visualizer](https://example.com/energy-visualizer.png)
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests with improvements or bug fixes.
+
+1. **Fork the repository**.
+2. **Create a new branch** (`git checkout -b feature-branch`).
+3. **Make your changes**.
+4. **Commit your changes** (`git commit -am 'Add new feature'`).
+5. **Push to the branch** (`git push origin feature-branch`).
+6. **Create a new Pull Request**.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to adapt this `README.md` to better fit your project specifics, such as adding or updating images and links.
